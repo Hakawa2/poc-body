@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "poc-body",
+	"name": "Body Mind Sumplementos",
     "slug": "poc-body",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+	"icon": "./assets/logo.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#202020"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -16,11 +16,13 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+	"ios": {
+		"bundleIdentifier": "com.bodymindsuplementos.bodymindsuplementos",
+		"buildNumber": "1.0.0"
+	  },
+	"android": {
+		"package": "com.bodymindsuplementos.bodymindsuplementos",
+		"versionCode": 1
+	}
   }
 }
